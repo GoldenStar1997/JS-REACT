@@ -16,6 +16,9 @@ export const getSessionToken = () => {
   return null;
 };
 
+// export session on from react app user
+
+
 export const setSessionUserAndToken = (user, token) => {
   localStorage.setItem('REACT-APP-USER', JSON.stringify(user));
   localStorage.setItem('REACT-APP-ACCESS-TOKEN', token);
